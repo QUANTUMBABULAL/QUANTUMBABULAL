@@ -13,11 +13,6 @@
 
 </div>
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/QUANTUMBABULAL/QUANTUMBABULAL/main/my_picture.svg" width="400" alt="CHINMAI A S — ASCII Portrait" />
-
-</div>
 
 <div align="center">
 
