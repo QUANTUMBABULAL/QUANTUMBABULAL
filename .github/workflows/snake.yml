@@ -2,22 +2,36 @@ name: Generate Snake
 
 on:
   schedule:
+    # Runs at 12 AM UTC every day
     - cron: "0 0 * * *"
-
+  # Allows you to run the workflow manually from the Actions tab
   workflow_dispatch:
+
+# CRITICAL FIX: Explicitly grant write permissions to the GITHUB_TOKEN
+# Without this, the workflow cannot push the generated images to the output branch.
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository (Best practice)
+      - uses: actions/checkout@v4
+
+      # Step 2: Generate the snake animation
       - uses: Platane/snk@v3
         with:
           github_user_name: QUANTUMBABULAL
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # Optional: Include this if you want to include your private contributions in the graph
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 3: Push the generated SVG files to the 'output' branch
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
