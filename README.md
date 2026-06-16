@@ -118,9 +118,6 @@
 <img src="https://raw.githubusercontent.com/QUANTUMBABULAL/QUANTUMBABULAL/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
 
 </div>
-
-> 💡 **Setup:** Add a GitHub Actions workflow to auto-generate the snake animation. See [Platane/snk](https://github.com/Platane/snk) for setup instructions.
-
 ---
 
 ## 💀 CYBERPUNK TERMINAL
