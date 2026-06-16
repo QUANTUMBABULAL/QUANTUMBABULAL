@@ -77,9 +77,9 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=QUANTUMBABULAL&show_icons=true&theme=cyberpunk&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FFFF&icon_color=FF00FF&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=QUANTUMBABULAL&show_icons=true&theme=radical&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QUANTUMBABULAL&layout=compact&langs_count=7&theme=cyberpunk&hide_border=true&bg_color=0D1117&title_color=00FFFF&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=QUANTUMBABULAL&layout=compact&theme=radical&hide_border=true"/>
 
 </div>
 
